@@ -76,3 +76,16 @@ a.divLink {
 	width: 50%;
 	height: 50%;
 }
+.starcenter {
+	display: block;
+	margin: 0 auto;
+	width: 25%;
+	height: 25%;
+}
+.button {
+	width: 20vw;
+	height: 10vh;
+	border-radius: 1vw;
+	background-color: red;
+	margin: 0 auto;
+}
