@@ -37,7 +37,7 @@ a.divLink {
 	background-color: black;
 	transition: all 500ms ease;
 }
-.red, .white, .redlink, .whitelink {
+.red, .white, .redlink, .whitelink, .black, .blacklink {
 	width: 5vw;
 	height: 5vw;
 	float: left;
@@ -47,6 +47,9 @@ a.divLink {
 }
 .red, .redlink {
 	background-color: red;
+}
+.black, .blacklink {
+	background-color: black;
 }
 .container0 {
 	width: 15vw;
@@ -69,6 +72,11 @@ a.divLink {
 	position: fixed;
 	top: 7.5vh;
 	left: 27.5vw;
+}
+.container4 {
+	width: 70vw;
+	height: 55vw;
+	margin: 0 auto;
 }
 .center {
 	display: block;
