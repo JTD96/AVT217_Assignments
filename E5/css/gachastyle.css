@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	background-color: black;
 }
-h1, h3, a {
+h1, h3, a, p {
 	font-family: 'Poor Story', cursive;
 	color: white;
 }
@@ -77,6 +77,37 @@ a.divLink {
 	width: 70vw;
 	height: 55vw;
 	margin: 0 auto;
+}
+.container5 {
+	width: 60vw;
+	height: 80vw;
+	margin: 0 auto;
+}
+.container6 {
+	width: 25vw;
+	height: 25vw;
+	margin: 0 auto;
+}
+.container6a {
+	width: 25vw;
+	height: 25vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.container6b {
+	width: 25vw;
+	height: 25vw;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.troll {
+	width: 5vw;
+	height: 5vw;
+	position: absolute;
+	top: 4000px;
+	right: 0;
 }
 .center {
 	display: block;
