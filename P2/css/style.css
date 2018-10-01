@@ -1,0 +1,28 @@
+body{
+	margin: 5vw;
+	text-align: center;
+	background-color: black;
+	background-image: url(../imgs/night-city-skyline-background-vector.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+h1, p{
+	color: white;
+}
+h1{
+	font-family: 'Squada One', cursive;
+}
+p, a{
+	font-family: 'Titillium Web', sans-serif;
+}
+a{
+	color: skyblue;
+	transition: all 500ms ease;
+}
+a:hover{
+	color: crimson;
+}
+.tab{
+	text-indent: 40px;
+}
