@@ -1,5 +1,6 @@
 body{
-	margin: 5vw;
+	margin-left: 30vw;
+	margin-right: 30vw;
 	text-align: center;
 	background-color: black;
 	background-image: url(../imgs/night-city-skyline-background-vector.jpg);
@@ -22,6 +23,9 @@ a{
 }
 a:hover{
 	color: crimson;
+}
+a:visited{
+	color: plum;
 }
 .tab{
 	text-indent: 40px;
