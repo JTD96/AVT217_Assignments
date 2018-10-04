@@ -22,9 +22,6 @@ a{
 	transition: all 500ms ease;
 }
 
-a:visited{
-	color: plum;
-}
 a:hover{
 	color: crimson;
 }
