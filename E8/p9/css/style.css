@@ -1,0 +1,33 @@
+body{
+	background-color: black;
+	margin: 0;
+}
+div{
+	text-align: center;
+	float: left;
+}
+.header{
+	width: 100vw;
+	height: 20vh;
+	line-height: 1em;
+}
+.container{
+	width: 100vw;
+}
+.column{
+	width: 25vw;
+	margin: 0 4vw 0 4vw;
+}
+h1,h2,h3{
+	color: white;
+	font-family: 'Monoton', cursive;
+	font-weight: normal;
+}
+h3{
+	font-size: 10pt;
+}
+p{
+	color: white;
+	font-family: 'EB Garamond', serif;
+	font-size: 9.65pt;
+}

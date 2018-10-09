@@ -1,0 +1,33 @@
+body{
+	background-color: brown;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-top: 15vw;
+	margin-bottom: 0;
+}
+div{
+	margin: 0 auto;
+}
+h1, h2, h3{
+	font-family: 'Cinzel Decorative', cursive;
+	text-align: center;
+	color: brown;
+}
+h2{
+	color: black;
+}
+p{
+	font-family: 'Cinzel Decorative', cursive;
+	color: black;
+}
+.header{
+	background-color: black;
+	width: 100vw;
+	height: 10vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.body-text{
+	margin: 0 10vw 0 10vw;
+}

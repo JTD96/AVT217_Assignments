@@ -1,0 +1,40 @@
+body{
+	background-image: url(../imgs/bg.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+div{
+	text-align: center;
+	padding: 5vw;
+	margin: 0;
+}
+.header{
+	background-image: url(../imgs/bubble.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 65vh;
+}
+.body-text{
+	color: white;
+	margin: 0 15vw 5vw 15vw;
+}
+h1, h2, h3{
+	font-family: 'Bangers', cursive;
+}
+h1{
+	font-size: 48px;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size: 24px;
+}
+p{
+	font-family: 'Boogaloo', cursive;
+	font-size: 18px;
+}

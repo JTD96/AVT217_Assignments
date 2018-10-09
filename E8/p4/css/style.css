@@ -1,0 +1,24 @@
+body{
+	background-image: url(../imgs/download.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	top: 0;
+	left: 0;
+}
+h1, h2, h3{
+	font-family: 'Berkshire Swash', cursive;
+	color: black;
+}
+p{
+	font-family: 'Charmonman', cursive;
+	color: black;
+	font-weight: bold;
+}
+.text{
+	width: 50vw;
+	float: left;
+	text-align: center;
+	margin-left: 2vw;
+	margin-right: 2vw;
+}

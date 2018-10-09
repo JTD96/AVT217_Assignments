@@ -1,0 +1,37 @@
+body{
+	background-color: lightsteelblue;
+}
+div{
+	margin-left: 10vw;
+}
+h1, h2, h3{
+	font-family: 'Bungee', cursive;
+	font-weight: bold;
+	font-size: 30pt;
+	text-align: center;
+	color: midnightblue;
+}
+h3{
+	font-weight: normal;
+	font-size: initial;
+}
+h2{
+	font-size: 20pt;
+}
+p{
+	font-family: 'Playfair Display', monospace;
+	color: darkblue;
+}
+.headspan{
+	transform: rotate(-90deg);
+	float: left;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	top: 15vw;
+	line-height: 1em;
+}
+.body-text{
+	margin-left: 32vw;
+	margin-right: 30vw;
+}
