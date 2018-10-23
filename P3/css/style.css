@@ -1,0 +1,129 @@
+body{
+	background-color: black;
+	margin: 10vw;
+}
+.desktop{
+	display: block;
+	padding: 5vw;
+	background-color: white;
+}
+.mobile{
+	display: none;
+	padding: 2.5vw;
+	background-color: black;
+	color: white;
+}
+.mobile>img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.mobile>.lowres{
+	width: 50%;
+	height: 50%;
+	float: none;
+}
+
+.mobile>video{
+	float: none;
+	margin: 0 auto;
+}
+
+video{
+	float: left;
+	display: block;
+	margin-right: 1vw;
+}
+
+img{
+	display: block;
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+}
+.lowres{
+	width: 25%;
+	height: 25%;
+	float: left;
+	margin-right: 1vw;
+}
+
+.right{
+	display: block;
+	float: right;
+	margin-left: 1vw;
+}
+
+.left{
+	display: block;
+	float: left;
+	margin-right: 1vw;
+}
+
+.firstcharacter {
+  float: left;
+  font-family: Georgia;
+  font-size: 24px;
+  line-height: 90%;
+  padding-top: 4px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+#myBtn {
+	position: relative;
+	left: 50%;
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: blue; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+@media only screen and (max-width: 2000px){
+	body{
+		background-color: white;
+	}
+	.desktop{
+		display: block;
+	}
+	.mobile{
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 1024px){
+	body{
+		background-color: blue;
+	}
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	body{
+		background-color: black;
+	}
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+
+}
