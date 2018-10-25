@@ -89,7 +89,7 @@ img{
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
-@media only screen and (max-width: 2000px){
+@media only screen and (max-width: 1400px){
 	body{
 		background-color: white;
 	}
