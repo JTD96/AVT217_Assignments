@@ -1,0 +1,158 @@
+body{
+	background-color: black;
+}
+#container{
+	width: 30vw;
+	height: 80vh;
+	position: absolute;
+	left: 35%;
+	top: 15%;
+}
+.mask{
+	background-color: rgb(218, 201, 174);
+	width: 30vw;
+	height: 80vh;
+	border-radius: 48%; 
+}
+.eye1{
+	background-color: black;
+	width: 7.5vw;
+	height: 15vh;
+	position: relative;
+	left: 5vw;
+	top: 3vw;
+	border-radius: 50%;
+}
+.eye2{
+	background-color: black;
+	width: 7.5vw;
+	height: 15vh;
+	position: relative;
+	left: 17vw;
+	top: -4vw;
+	border-radius: 50%;
+}
+.holder{
+	width: 7.5vw;
+	margin: 0 auto;
+	position: relative;
+	left: 10vw;
+	top: 2vw;
+	float: left;
+}
+.hole{
+	width: 2vw;
+	height: 4vh;
+	background-color: black;
+	border-radius: 50%;
+}
+.space{
+	width: 2vw;
+	height: 4vh;
+	background-color: rgb(218, 201, 174);
+	border-radius: 50%;
+}
+.shift1{
+	margin: 0 auto;
+	position: relative;
+	top: -4vh;
+}
+.shift2{
+	position: relative;
+	left: 5vw;
+	top: -2vh;
+}
+.shift3{
+	position: relative;
+	left: 22.75vw;
+	top: -6vh;
+}
+.tri{
+	margin: 0 auto;
+	width: 0;
+	height: 0;
+	border-left: 2.5vw solid transparent;
+	border-right: 2.5vw solid transparent;
+	border-top: 2.5vw solid crimson;
+	position: relative;
+	top: 27.5vh;
+}
+.tri2{
+	width: 0;
+	height: 0;
+	border-left: 2.5vw solid crimson;
+	border-bottom: 2.5vw solid transparent;
+	border-top: 2.5vw solid transparent;
+	position: relative;
+	left: 3vw;
+	top: 40vh;
+}
+.tri3{
+	width: 0;
+	height: 0;
+	border-right: 2.5vw solid crimson;
+	border-bottom: 2.5vw solid transparent;
+	border-top: 2.5vw solid transparent;
+	position: relative;
+	left: 25vw;
+	top: 30vh;
+}
+.bottom{
+	position: relative;
+	left: 10vw;
+	top: -5.5vw;
+	float: left;
+}
+.knife{
+	width: 5vw;
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	transform: scaleY(-1);
+	animation-name: stab;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.handle{
+	width: 2vw;
+	height: 15vh;
+	background-color: brown;
+	border-radius: 25% 25% 0 0;
+}
+.blade{
+	width: 5vw;
+	height: 40vh;
+	background-color: aliceblue;
+	border-radius: 0 0 100% 0;
+}
+.rot{
+	transform: rotate(180deg);
+	position: absolute;
+	left: 70%;
+	top: 25%;
+	animation-name: stabb;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+h1{
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	margin: 0 auto;
+	text-align: center;
+}
+@keyframes stab {
+    0%   {top:0px;}
+    25%  {top:100px;}
+    50%  {top:200px;}
+    75%  {top:100px;}
+    100% {top:0px;}
+}
+@keyframes stabb {
+    0%   {top:200px;}
+    25%  {top:100px;}
+    50%  {top:0px;}
+    75%  {top:100px;}
+    100% {top:200px;}
+}
