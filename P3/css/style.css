@@ -38,8 +38,8 @@ video{
 
 img{
 	display: block;
-	width: 40%;
-	height: 40%;
+	width: 50%;
+	height: 50%;
 	margin: 0 auto;
 }
 .lowres{
@@ -97,7 +97,7 @@ img{
 h1, h2{
 	font-family: 'Cinzel Decorative', cursive;
 }
-h3, p, span, button{
+h3, p, button{
 	font-family: 'Special Elite', cursive;
 }
 
