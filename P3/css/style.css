@@ -101,6 +101,10 @@ img{
 	width: 40vw;
 	margin: 0 auto;
 }
+.mobile>.bodytext{
+	width: 60vw;
+	margin: 0 auto;
+}
 
 h1, h2{
 	font-family: 'Cinzel Decorative', cursive;
