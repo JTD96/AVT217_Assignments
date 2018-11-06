@@ -13,4 +13,4 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-//look up jQuery API for more function types
+//look up jQuery events for more function types
