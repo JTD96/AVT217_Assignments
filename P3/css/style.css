@@ -117,7 +117,7 @@ h3, p, button{
 
 @media only screen and (max-width: 1440px){
 	body{
-		background-color: white;
+		background-color: black;
 	}
 	.desktop{
 		display: block;
@@ -130,7 +130,7 @@ h3, p, button{
 
 @media only screen and (max-width: 1024px){
 	body{
-		background-color: blue;
+		background-color: black;
 	}
 	.desktop{
 		display: none;
