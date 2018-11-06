@@ -29,6 +29,8 @@ body{
 .mobile>video{
 	float: none;
 	margin: 0 auto;
+	width: 50%;
+	height: 50%;
 }
 
 video{
