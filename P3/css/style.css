@@ -10,7 +10,8 @@ body{
 }
 .mobile{
 	display: none;
-	padding: 2.5vw;
+	padding: 1vw;
+	margin: 0;
 	background-color: black;
 	color: white;
 }
@@ -104,7 +105,7 @@ img{
 	margin: 0 auto;
 }
 .mobile>.body-text{
-	width: 60vw;
+	width: 80vw;
 	margin: 0 auto;
 }
 
@@ -113,6 +114,9 @@ h1, h2{
 }
 h3, p, button{
 	font-family: 'Special Elite', cursive;
+}
+p{
+	line-height: 1.25em;
 }
 
 @media only screen and (max-width: 1440px){
