@@ -1,0 +1,188 @@
+body{
+	margin: 0 auto;
+	text-align: center;
+	background-color: black;
+	padding-top: 100vh;
+	max-width: 100%;
+	overflow-x: hidden; 
+}
+#container{
+	background-color: black;
+	color: white;
+	width: 100vw;
+}
+.titlebox{
+	width: 50vw;
+	height: 100vh;
+	line-height: 100vh;
+	background-color: rebeccapurple;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all ease 1s;
+}
+.tut1{
+	width: 50vw;
+	height: 100vh;
+	line-height: 100vh;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 50vw;
+	z-index: -1;
+}
+.tut2{
+	width: 50vw;
+	height: 100vh;
+	line-height: 100vh;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+span{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.fifth, .fourth, .third, .second, .first{
+	width: 100vw;
+	height: 100vh;
+	line-height: 100vh;
+	margin: 0 auto;
+}
+.merk, .phon, .orie, .wald, .gord{
+	width: 50vw;
+	margin: 0 auto;
+	position: absolute;
+	left: -2vw;
+	display: block;
+	opacity: 0;
+	transition: all ease 0.5s;
+}
+.mtext, .ptext, .otext, .wtext, .gtext{
+	color: white;
+	width: 25vw;
+	margin: 0 auto;
+	line-height: normal;
+	position: absolute;
+	left: 65vw;
+	display: block;
+	opacity: 0;
+	transition: all ease 0.5s;
+}
+.merk{
+	top: 125vh;
+}
+.phon{
+	top: 225vh;
+}
+.orie{
+	top: 325vh;
+}
+.wald{
+	top: 425vh;
+}
+.gord{
+	top: 525vh;
+}
+.mtext{
+	top: 140vh;
+}
+.ptext{
+	top: 250vh;
+}
+.otext{
+	top: 345vh;
+}
+.wtext{
+	top: 450vh;
+}
+.gtext{
+	top: 550vh;
+}
+.titleClick{
+	border-bottom: 3px solid white;
+	padding-bottom: 3px;
+}
+.shift{
+	position: absolute;
+	top: 0;
+	left: 50vw;
+	transition: all ease 1s;
+}
+.appear{
+	opacity: 1;
+	transition: all ease 0.5s;
+}
+img{
+	width: 50%;
+	height: 50%;
+}
+.lowres{
+	width: 75%;
+	height: 75%;
+}
+h1{
+	font-family: 'Shojumaru', cursive;
+}
+h2, h3, p{
+	font-family: 'Playfair Display SC', serif;
+}
+p{
+	line-height: normal;
+}
+button{
+	cursor: pointer;
+}
+.jqClick1, .jqClick2, .jqClick3, .jqClick4, .jqClick5{
+	text-decoration: underline;
+}
+.mb{
+	height: 2vw;
+	line-height: normal;
+	position: absolute;
+	top: 200vh;
+	left: 44vw;
+	z-index: 1;
+	transition: all ease 0.5s;
+}
+.pb{
+	height: 2vw;
+	line-height: normal;
+	position: absolute;
+	top: 303vh;
+	left: 44vw;
+	z-index: 1;
+	transition: all ease 0.5s;
+}
+.ob{
+	height: 2vw;
+	line-height: normal;
+	position: absolute;
+	top: 406vh;
+	left: 44vw;
+	z-index: 1;
+	transition: all ease 0.5s;
+}
+.wb{
+	height: 2vw;
+	line-height: normal;
+	position: absolute;
+	top: 509vh;
+	left: 44vw;
+	z-index: 1;
+	transition: all ease 0.5s;
+}
+.gb{
+	height: 2vw;
+	line-height: normal;
+	position: absolute;
+	top: 612vh;
+	left: 44vw;
+	z-index: 1;
+	transition: all ease 0.5s;
+}
