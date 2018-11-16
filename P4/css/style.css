@@ -1,0 +1,37 @@
+body{
+	margin: 0 auto;
+}
+img{
+	float: left;
+	padding: 1vh;
+}
+.d1{
+	width: calc(1536px/2);
+	height: auto;
+}
+.d2{
+	width: calc(1440px/2);
+	height: auto;
+}
+.m1{
+	width: calc(1024px/1.5);
+	height: auto;
+}
+.m2{
+	width: calc(768px/1.5);
+	height: auto;
+}
+.divider{
+	width: 100vw;
+	height: 1vh;
+	background-color: black;
+}
+.home{
+	height: 1200px;
+}
+.detail{
+	height: 1800px;
+}
+.about{
+	height: 1400px;
+}
