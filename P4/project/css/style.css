@@ -30,6 +30,7 @@ a{
 #hc>.header{
 	display: inline-block;
 	height: 15%;
+	max-width: 20vw;
 	background-color: rgb(78,87,95);
 	color: white;
 	float: left;
@@ -176,6 +177,9 @@ a{
 	margin: 0 auto;
 	width: 80vw;
 }
+.mobile>#gallery{
+	width: 40vw;
+}
 .icon{
 	width: 20vw;
 	height: 20vh;
@@ -208,50 +212,90 @@ a{
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+.mobile>#gallery>.icon>.one{
+	background-position: left;
+	background-size: 200%;
+}
 .two{
 	background-image: url(../imgs/bss.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
+}
+.mobile>#gallery>.icon>.two{
+	background-position: left;
+	background-size: 200%;
 }
 .three{
 	background-image: url(../imgs/ts.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+.mobile>#gallery>.icon>.three{
+	background-position: left;
+	background-size: 200%;
+}
 .four{
 	background-image: url(../imgs/ghs.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
+}
+.mobile>#gallery>.icon>.four{
+	background-position: left;
+	background-size: 200%;
 }
 .five{
 	background-image: url(../imgs/gws.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+.mobile>#gallery>.icon>.five{
+	background-position: left;
+	background-size: 200%;
+}
 .six{
 	background-image: url(../imgs/gs.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
+}
+.mobile>#gallery>.icon>.six{
+	background-position: left;
+	background-size: 200%;
 }
 .seven{
 	background-image: url(../imgs/tgs.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+.mobile>#gallery>.icon>.seven{
+	background-position: left;
+	background-size: 200%;
+}
 .eight{
 	background-image: url(../imgs/mms.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
+}
+.mobile>#gallery>.icon>.eight{
+	background-position: left;
+	background-size: 200%;
 }
 .nine{
 	background-image: url(../imgs/bs.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+.mobile>#gallery>.icon>.nine{
+	background-position: left;
+	background-size: 200%;
+}
 .ten{
 	background-image: url(../imgs/ws.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
+}
+.mobile>#gallery>.icon>.ten{
+	background-position: left;
+	background-size: 200%;
 }
 .dlink1, .dlink2, .dlink3, .dlink4, .dlink5, .dlink6, .dlink7, .dlink8, .dlink9, .dlink10{
 	background-color: black;
@@ -295,6 +339,15 @@ a{
 	float: right;
 	width: 50%;
 }
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+ 
+.clearfix:after {
+    clear: both;
+}
 
 @media only screen and (max-width: 1024px){
 	.desktop{
@@ -311,9 +364,6 @@ a{
 	}
 	.mobile{
 		display: block;
-	}
-	.mobile>.header{
-		left: 0;
 	}
 
 }
