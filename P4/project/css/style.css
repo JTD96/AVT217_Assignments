@@ -7,10 +7,19 @@ body{
 	background: rgb(9,9,121);
 	background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(48,76,99,1) 0%, rgba(144,213,239,1) 100%);
 }
+h1,a{
+	font-family: 'Sigmar One', cursive;
+}
+#hc>.header>h1{
+	font-size: 1.2em;
+	font-weight: normal;
+}
+h3,p{
+	font-family: 'Bitter', serif;
+}
 a{
-	font-size: 2em;
+	font-size: 1.5em;
 	color: white;
-	font-weight: bolder;
 }
 .mobile>a{
 	text-decoration: none;
@@ -29,11 +38,10 @@ a{
 }
 #hc>.header{
 	display: inline-block;
-	height: 15%;
-	max-width: 20vw;
+	width: 38vw;
+	height: 15vh;
 	background-color: rgb(78,87,95);
 	color: white;
-	float: left;
 	margin: 0 auto;
 	border-radius: 1vw;
 }
@@ -45,11 +53,11 @@ a{
 	padding: 1vw;
 }
 #hc>.about{
+	height: 15vh;
 	display: inline-block;
-	height: 15%;
-	float: left;
+	float: right;
 	text-align: center;
-	max-width: 8vw;
+	width: 8vw;
 	padding: 3vw;
 	margin-left: 3vw;
 	border-radius: 1vw;
@@ -63,11 +71,11 @@ a{
 	text-align: center;
 }
 #hc>.home{
+	height: 15vh;
 	display: inline-block;
-	height: 15%;
 	float: left;
 	text-align: center;
-	max-width: 8vw;
+	width: 8vw;
 	padding: 3vw;
 	margin-right: 3vw;
 	border-radius: 1vw;
@@ -299,6 +307,8 @@ a{
 }
 .dlink1, .dlink2, .dlink3, .dlink4, .dlink5, .dlink6, .dlink7, .dlink8, .dlink9, .dlink10{
 	background-color: black;
+	float: left;
+	/*margin-left: -2.5vw;*/
 	text-align: center;
 	display: none;
 	z-index: 10;
@@ -324,7 +334,8 @@ a{
 	max-width: 50%;
 }
 #hc{
-	min-width: 100%;
+	height: 15vh;
+	width: 60vw;
 	text-align: center;
 	margin: 0 auto;
 }
