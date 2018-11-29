@@ -69,3 +69,7 @@ function showLinks() {
     $('.dlink10').toggleClass('appear');
   })
 }
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
