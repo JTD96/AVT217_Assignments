@@ -8,6 +8,7 @@ body{
 	background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(48,76,99,1) 0%, rgba(144,213,239,1) 100%);
 }
 h1,a{
+	font-weight: normal;
 	font-family: 'Sigmar One', cursive;
 }
 #hc>.header>h1{
