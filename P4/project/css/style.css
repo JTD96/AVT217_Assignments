@@ -406,8 +406,6 @@ a{
 		margin-left: -5vw;
 		font-size: 1em;
 	}
-
-
 }
 @media only screen and (max-width: 768px){
 	.desktop{
@@ -437,7 +435,6 @@ a{
 		margin-left: -1vw;
 		font-size: 1em;
 	}
-
 }
 @media only screen and (max-width: 423px){
 	.dlink1,.dlink2,.dlink3,.dlink4,.dlink5,.dlink6,.dlink7,.dlink8,.dlink9,.dlink10{
